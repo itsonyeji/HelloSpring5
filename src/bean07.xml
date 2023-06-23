@@ -9,6 +9,7 @@
     <bean id="eng" class="hello.spring.bean.Spring5Bean03Eng"></bean>
     <bean id="jpn" class="hello.spring.bean.Spring5Bean03Jpn"></bean>-->
 
+<!--    관리대상인 package를 scan해서 알아서 객체를 만들어주는 지시문. -->
     <context:component-scan base-package="hello.spring.annotation"/>
 
 </beans>
