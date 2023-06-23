@@ -17,6 +17,7 @@ public class Spring5App04 {
     // 즉, 스프링의 IoC 컨테이너가 객체를 생성해주고
     // 그것을 주입받음
 
+
     public static void main(String[] args) {
         Spring5Bean03 app04=null;
         app04= Spring5Bean04Factory.create("kor");
