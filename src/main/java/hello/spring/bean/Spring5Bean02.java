@@ -7,7 +7,8 @@ public class Spring5Bean02 {
     }
     public void sayHelloEng(String msg){
         System.out.println("Hello, "+msg);
-    }public void sayHelloJpn(String msg){
+    }
+    public void sayHelloJpn(String msg){
         System.out.println("こんにちは, "+msg);
     }
 
